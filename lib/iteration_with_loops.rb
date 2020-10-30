@@ -10,5 +10,10 @@ def find_even_values(src)
     while inner < src[outer].length do 
       if src[outer] % 2 == 0 
         puts src[outer][inner]
+      end
+      inner += 1 
+    end 
+    outer += 1 
+  end 
 
 end
